@@ -11,7 +11,7 @@ public class EvenOdd
 		System.out.println("Enter any positive integer");
 		int num = sc.nextInt();
 		
-		if((num|1)== num+1)
+		if((num & 1) == 0)
 			System.out.println("It's Even");
 		else
 			System.out.println("It's Odd");
